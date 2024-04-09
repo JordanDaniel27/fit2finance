@@ -20,20 +20,3 @@ rad.forEach((item) => {
     input.click();
   });
 });
-
-/* var label = document.querySelectorAll("label");
-function search(searchin) {
-  let searchVal = searchin.value;
-  searchVal = searchVal.toUpperCase();
-  label.forEach((item) => {
-    let checkVal = item.querySelector(".name").innerHTML;
-    checkVal = checkVal.toUpperCase();
-    if (checkVal.indexOf(searchVal) == -1) {
-      item.style.display = "none";
-    } else {
-      item.style.display = "flex";
-    }
-    let list = input.nextElementSibling;
-    list.style.maxHeight = list.scrollHeight + "px";
-  });
-} */
