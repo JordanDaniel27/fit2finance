@@ -39,18 +39,18 @@
         </svg>
       </button>
       <nav class="menu-list">
-        <ul class="text-[16px]">
+        <ul>
           <li>
             <a href="index.html" class="">Inicio</a>
           </li>
           <li>
-            <a href="#" class="">Servicios</a>
+            <a href="index.html#servicios" class="">Servicios</a>
           </li>
           <li>
-            <a href="#" class="">Blog</a>
+            <a href="blog.html" class="">Blog</a>
           </li>
           <li>
-            <a href="#" class="">Contacto</a>
+            <a href="index.html#servicios" class="">Contacto</a>
           </li>
         </ul>
       </nav>
@@ -613,23 +613,25 @@
             Pág.
           </p>
           <nav class="flex justify-between" aria-label="Pagination">
-            <div class="flex items-center text-[16px] xl:text-text20">
+            <div
+              class="flex items-center text-[16px] xl:text-text20 text-textGray"
+            >
               <a
-                class="rounded-lg px-4 py-2 text-textGray hover:bg-bgOrangeStrong duration-300 hover:text-white"
-                href="/page/2"
+                class="rounded-lg px-4 py-2 pagination__blog font-medium bg-pagination"
+                href="#"
               >
                 1
               </a>
               <p>|</p>
               <a
-                class="rounded-lg bg-white px-4 py-2 text-textGray hover:bg-bgOrangeStrong duration-300 hover:text-white"
-                href="/page/2"
+                class="rounded-lg px-4 py-2 font-medium pagination__blog"
+                href="#"
                 >2
               </a>
               <p>|</p>
               <a
-                class="rounded-lg bg-white px-4 py-2 text-textGray hover:bg-bgOrangeStrong duration-300 hover:text-white"
-                href="/page/3"
+                class="rounded-lg px-4 py-2 font-medium pagination__blog"
+                href="#"
                 >3
               </a>
             </div>
@@ -755,7 +757,7 @@
     </footer>
 
     <!-- ------------------------------- -->
-
+    <script src="./js/pagination.js"></script>
     <script src="./js/aos.js"></script>
     <script src="./js/modalFormulario.js"></script>
     <script>

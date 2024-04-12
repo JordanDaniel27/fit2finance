@@ -30,7 +30,7 @@ button {
   text-align: left;
   text-transform: initial;
   list-style-type: none;
-  font-size: 16px;
+  font-size: 20px;
   padding: 10px 15px;
   /* border-bottom: 1pt solid #252525; */
 }
@@ -352,4 +352,9 @@ input:checked + label {
 
 .swiper-slide-flex {
   display: flex !important;
+}
+
+.bg-pagination {
+  background: #e38533;
+  color: white;
 }

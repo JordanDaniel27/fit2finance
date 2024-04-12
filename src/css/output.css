@@ -1310,18 +1310,9 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-300 {
-  transition-duration: 300ms;
-}
-
 .hover\:bg-bgGrayStrong:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(57 63 83 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-bgOrangeStrong:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(227 133 51 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-orange-500:hover {
@@ -1336,11 +1327,6 @@ video {
 .hover\:text-textOrange:hover {
   --tw-text-opacity: 1;
   color: rgb(227 133 51 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
